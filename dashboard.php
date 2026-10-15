@@ -10,7 +10,7 @@ foreach ($leads as &$l) {
   $l['note']   = $s['note'] ?? '';
 }
 unset($l);
-usort($leads, fn($a, $b) => [$b['added'], $b['score']] <=> [$a['added'], $a['score']]);
+usort($leads, fn($a, $b) => strcmp($b['added'], $a['added']));
 $payload = json_encode(['leads' => $leads, 'updated' => $data['updated'] ?? '', 'csrf' => csrf_token()],
   JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT);
 ?><!doctype html>
@@ -20,13 +20,11 @@ $payload = json_encode(['leads' => $leads, 'updated' => $data['updated'] ?? '', 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Crackwits · Leads</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=Noto+Kufi+Arabic:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/app.css">
+<link rel="stylesheet" href="assets/app.css?v=2">
 </head>
 <body>
 <header class="top">
-  <div class="brand"><span class="mark">CW</span><div><b>Crackwits</b><small>Lead Engine</small></div></div>
+  <img class="logo" src="assets/logo.svg" alt="Crackwits" width="168" height="32">
   <div class="top-right"><span class="muted" id="updated"></span><a class="btn ghost" href="logout.php">Log out</a></div>
 </header>
 
@@ -36,17 +34,20 @@ $payload = json_encode(['leads' => $leads, 'updated' => $data['updated'] ?? '', 
   <section class="filters">
     <input id="q" type="search" placeholder="Search company, sector, city…">
     <select id="f-country"><option value="">All markets</option><option>Kuwait</option><option>Lebanon</option></select>
-    <select id="f-priority"><option value="">Any priority</option><option value="hot">Hot</option><option value="warm">Warm</option><option value="cold">Cold</option></select>
     <select id="f-status"><option value="">Any status</option></select>
     <select id="f-day"><option value="">All days</option></select>
   </section>
 
-  <section id="list" class="list"></section>
+  <section id="grid" class="grid"></section>
   <p id="empty" class="empty" hidden>No leads match these filters.</p>
 </main>
 
+<dialog id="modal" class="modal" aria-labelledby="m-title">
+  <div class="modal-inner" id="m-body"></div>
+</dialog>
+
 <div id="toast" class="toast" hidden></div>
 <script>window.CRK = <?= $payload ?>;</script>
-<script src="assets/app.js"></script>
+<script src="assets/app.js?v=2"></script>
 </body>
 </html>

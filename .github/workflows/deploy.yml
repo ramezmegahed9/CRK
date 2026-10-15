@@ -18,6 +18,15 @@ jobs:
       - name: Validate leads JSON
         run: python3 -c "import json;json.load(open('data/leads.json'))"
 
+      - name: Fetch Crackwits brand font (URW Geometric)
+        run: |
+          mkdir -p assets/fonts
+          for w in Light Regular Medium SemiBold Bold ExtraBold; do
+            curl -fsSL --retry 3 -o "assets/fonts/URWGeometric-$w.woff2" \
+              "https://www.crackwits.com/themes/wits-basic/fonts/URWGeometric-$w.woff2" || echo "font $w failed"
+          done
+          ls -la assets/fonts
+
       - name: Install lftp
         run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
 

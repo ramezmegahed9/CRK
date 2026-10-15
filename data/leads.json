@@ -9,24 +9,36 @@
       "city": "Salmiya — Dalal Complex",
       "sector": "F&B · Thai restaurant",
       "tier": "B+",
-      "priority": "hot",
-      "score": 88,
-      "services": ["Website", "Branding", "Social Media Management", "Social Ads"],
+      "services": [
+        "Website",
+        "Branding",
+        "Social Media Management",
+        "Social Ads"
+      ],
       "signal": "A ~23-year-old Kuwaiti institution just closed its Dasman location and relaunched under a brand-new name in Salmiya (announced 12 Oct 2026). Loyal customers don't yet know 'Oriental Cuisine' is now '24 Sukhumvit'. Online presence is Instagram only — no website found.",
       "angle": "Rebrand launch: carry 23 years of goodwill into the new name. Brand identity polish + a bilingual website with menu/reservations + a 'we moved & renamed' awareness campaign targeting old customers.",
       "contacts": {
+        "decision_maker": "Owner (not named publicly) — DM via Instagram, then visit in person",
+        "emails": [],
+        "phones": [
+          "+965 2575 7574"
+        ],
+        "whatsapp": "https://wa.me/message/4GTDQP2UTNDOC1",
         "website": "",
         "instagram": "https://www.instagram.com/24sukhumvit/",
         "linkedin": "",
-        "phone": "",
-        "email": "",
-        "decision_maker": "Owner (not named publicly) — DM via Instagram, then visit in person"
+        "other": "https://linktr.ee/orientalthaigroup"
       },
       "evidence": [
-        {"title": "248am — Oriental Cuisine is now 24 Sukhumvit", "url": "https://248am.com/mark/food/oriental-cuisine-is-now-24-sukhumvit/", "date": "2026-10-12"}
+        {
+          "title": "248am — Oriental Cuisine is now 24 Sukhumvit",
+          "url": "https://248am.com/mark/food/oriental-cuisine-is-now-24-sukhumvit/",
+          "date": "2026-10-12"
+        }
       ],
       "message_en": "Hi 24 Sukhumvit team, congratulations on the new home in Salmiya! Oriental Cuisine has been a Kuwait favourite for over two decades, and a rename is the moment that goodwill is either carried over or lost. We're Crackwits, a Kuwait-based creative agency (Twig, Lillajar, OVO, Pizza Express). We'd love to help you launch 24 Sukhumvit properly: a refined identity system, a bilingual site with menu and bookings, and a campaign that tells your regulars where you are now. Could we share a few ideas over coffee this week?",
-      "message_ar": "أهلاً فريق 24 Sukhumvit، مبروك الافتتاح الجديد في السالمية! Oriental Cuisine من أحب المطاعم في الكويت منذ أكثر من عشرين سنة، وتغيير الاسم هو اللحظة اللي إما ينتقل فيها هذا الولاء للاسم الجديد أو يضيع. نحن Crackwits، وكالة إبداعية في الكويت (عملنا مع Twig وLillajar وOVO وPizza Express). يسعدنا نساعدكم في إطلاق 24 Sukhumvit بالشكل الصحيح: هوية بصرية راقية، موقع بالعربي والإنجليزي للمنيو والحجوزات، وحملة توصل لزبائنكم القدامى مكانكم الجديد. ممكن نشارككم بعض الأفكار على قهوة هالأسبوع؟"
+      "email_subject": "Launching 24 Sukhumvit the right way",
+      "summary": "23-year-old Oriental Cuisine just relaunched under a new name in Salmiya. Instagram only, no website."
     },
     {
       "id": "kw-la-pala",
@@ -36,25 +48,41 @@
       "city": "Bneid Al-Gar — behind Massaleh Towers",
       "sector": "F&B · Italian restaurant (pizza alla pala)",
       "tier": "B+",
-      "priority": "hot",
-      "score": 85,
-      "services": ["Website", "Social Media Management", "Social Ads", "Google Ads"],
+      "services": [
+        "Website",
+        "Social Media Management",
+        "Social Ads",
+        "Google Ads"
+      ],
       "signal": "Family-run Italian restaurant by two Italian founders (Mattia & Lorenzo) with Nonna Federica's recipes, in soft opening since late Sep 2026 (evenings only). Bookings run through an Instagram link; no website found. Strong story, zero infrastructure yet.",
       "angle": "Launch the story: authentic Italian family + 'pizza alla pala' as a signature. Website with bookings + Google Maps/Search presence, content series around Nonna Federica, launch ads before grand opening.",
       "contacts": {
+        "decision_maker": "Mattia & Lorenzo (co-founders)",
+        "emails": [],
+        "phones": [
+          "+965 9553 3141"
+        ],
+        "whatsapp": "",
         "website": "",
         "instagram": "https://www.instagram.com/lapala.kw/",
         "linkedin": "",
-        "phone": "",
-        "email": "",
-        "decision_maker": "Mattia & Lorenzo (co-founders)"
+        "other": ""
       },
       "evidence": [
-        {"title": "248am — La Pala, a new family-run Italian restaurant", "url": "https://248am.com/mark/food/la-pala-a-new-family-run-italian-restaurant-in-kuwait/", "date": "2026-09-24"},
-        {"title": "KuwaitMalls — Kuwait food news: La Pala opens", "url": "https://kuwaitmalls.com/en/blog/kuwait-food-news-la-pala-tatami-design-awards", "date": "2026-09-25"}
+        {
+          "title": "248am — La Pala, a new family-run Italian restaurant",
+          "url": "https://248am.com/mark/food/la-pala-a-new-family-run-italian-restaurant-in-kuwait/",
+          "date": "2026-09-24"
+        },
+        {
+          "title": "KuwaitMalls — Kuwait food news: La Pala opens",
+          "url": "https://kuwaitmalls.com/en/blog/kuwait-food-news-la-pala-tatami-design-awards",
+          "date": "2026-09-25"
+        }
       ],
       "message_en": "Ciao Mattia & Lorenzo, we loved reading about La Pala and Nonna Federica's recipes. A story like yours deserves more than an Instagram link. We're Crackwits, a Kuwait creative agency behind digital launches for OVO, Pizza Express and Lillajar. Before your grand opening, we'd love to help with a beautiful booking site, a content series built around the family and the pala, and launch ads that fill weekday tables. Happy to drop by for a pizza and show you a few ideas?",
-      "message_ar": "Ciao ماتيا ولورينزو، عجبتنا قصة La Pala ووصفات Nonna Federica. قصة بهذا الجمال تستاهل أكثر من رابط على إنستغرام. نحن Crackwits، وكالة إبداعية في الكويت، اشتغلنا على إطلاقات رقمية لـ OVO وPizza Express وLillajar. قبل الافتتاح الرسمي، يسعدنا نساعدكم بموقع أنيق للحجوزات، سلسلة محتوى عن العائلة والـ pala، وإعلانات إطلاق تملأ الطاولات طول الأسبوع. ممكن نمر عليكم ونعرض بعض الأفكار؟"
+      "email_subject": "Ideas for La Pala's grand opening",
+      "summary": "New family-run Italian restaurant in soft opening. Bookings via an Instagram link, no website."
     },
     {
       "id": "kw-the-neighbourhood",
@@ -64,24 +92,35 @@
       "city": "Qortuba · Hessah District · Mansouriya",
       "sector": "F&B · Specialty café chain (3 branches)",
       "tier": "B",
-      "priority": "warm",
-      "score": 74,
-      "services": ["Website", "Social Media Management", "Social Ads"],
+      "services": [
+        "Website",
+        "Social Media Management",
+        "Social Ads"
+      ],
       "signal": "Grew from 1 to 3 branches in about a year (Mansouriya opened Jul 2026) and launched a digital loyalty card. No website found — Instagram only. A multi-branch brand with a loyalty program needs a proper home: branches, menu, loyalty sign-up.",
       "angle": "Scale-up stage: website with branch locator + loyalty sign-up, consistent content system across branches, geo-targeted ads per neighbourhood (fits the name).",
       "contacts": {
+        "decision_maker": "Founder (not named publicly) — DM via Instagram",
+        "emails": [],
+        "phones": [
+          "+965 5255 8155"
+        ],
+        "whatsapp": "",
         "website": "",
         "instagram": "https://www.instagram.com/nbrhood.me/",
         "linkedin": "",
-        "phone": "",
-        "email": "",
-        "decision_maker": "Founder (not named publicly) — DM via Instagram"
+        "other": ""
       },
       "evidence": [
-        {"title": "248am — A New Neighbourhood in Mansouriya", "url": "https://248am.com/mark/food/a-new-neighbourhood-in-mansouriya/", "date": "2026-07-12"}
+        {
+          "title": "248am — A New Neighbourhood in Mansouriya",
+          "url": "https://248am.com/mark/food/a-new-neighbourhood-in-mansouriya/",
+          "date": "2026-07-12"
+        }
       ],
       "message_en": "Hi Neighbourhood team, three branches in about a year plus a loyalty card is a great run. That's usually the point where a brand needs one digital home. We're Crackwits, a Kuwait creative agency (Twig, OVO, Lillajar). We'd love to build you a site with branch finder and loyalty sign-up, and a content and ads system that speaks to each neighbourhood you're in. Open to a quick chat this week?",
-      "message_ar": "أهلاً فريق The Neighbourhood، ثلاث فروع في حوالي سنة مع بطاقة ولاء رقمية، إنجاز رائع! وهذي عادةً المرحلة اللي يحتاج فيها البراند بيت رقمي واحد. نحن Crackwits، وكالة إبداعية في الكويت (Twig وOVO وLillajar). يسعدنا نبني لكم موقع فيه الفروع والتسجيل في برنامج الولاء، ونظام محتوى وإعلانات يخاطب كل منطقة أنتم فيها. تحبون نتكلم مكالمة قصيرة هالأسبوع؟"
+      "email_subject": "One digital home for The Neighbourhood",
+      "summary": "Café grew to 3 branches in a year and launched a loyalty card. No website yet."
     },
     {
       "id": "lb-socrate-souks",
@@ -91,25 +130,45 @@
       "city": "Beirut — Downtown, Beirut Souks",
       "sector": "F&B · Heritage restaurant & catering",
       "tier": "A",
-      "priority": "hot",
-      "score": 90,
-      "services": ["Website", "Social Media Management", "Social Ads", "Branding"],
+      "services": [
+        "Website",
+        "Social Media Management",
+        "Social Ads",
+        "Branding"
+      ],
       "signal": "60+ year Beirut brand opened a $1M+ two-level flagship in the Beirut Souks (Sep 2026), explicitly targeting younger diners with a contemporary menu and décor. Their website (socrate.com) still shows '©2020', has no mention of the Souks restaurant, and no direct phone/email.",
       "angle": "Heritage meets new generation: refresh socrate.com around the Souks flagship (menu, reservations, catering inquiries), a content strategy that bridges loyal regulars and younger Beirut, and ads around downtown footfall.",
       "contacts": {
+        "decision_maker": "Saad (Saadeddine) Zeidan — Owner / GM, Socrate Catering SAL",
+        "emails": [
+          "contacts@socrate.com",
+          "order@socrate.com"
+        ],
+        "phones": [
+          "+961 1 846 646",
+          "+961 3 662 442 (WhatsApp)"
+        ],
+        "whatsapp": "",
         "website": "https://www.socrate.com/",
         "instagram": "https://www.instagram.com/socratecatering/",
         "linkedin": "",
-        "phone": "",
-        "email": "",
-        "decision_maker": "Saad (Saadeddine) Zeidan — Owner / GM, Socrate Catering SAL"
+        "other": ""
       },
       "evidence": [
-        {"title": "L'Orient Today — Socrate restaurant bets on Beirut downtown's revival", "url": "https://today.lorientlejour.com/cooking-food-lebanon/1548808/socrate-restaurant-bets-on-beirut-downtowns-revival.html", "date": "2026-09-27"},
-        {"title": "Hospitality News — Socrate to open in DT Beirut, says GM Saadeddine Zeidan", "url": "https://www.hospitalitynewsmag.com/?p=48610", "date": "2025-08-13"}
+        {
+          "title": "L'Orient Today — Socrate restaurant bets on Beirut downtown's revival",
+          "url": "https://today.lorientlejour.com/cooking-food-lebanon/1548808/socrate-restaurant-bets-on-beirut-downtowns-revival.html",
+          "date": "2026-09-27"
+        },
+        {
+          "title": "Hospitality News — Socrate to open in DT Beirut, says GM Saadeddine Zeidan",
+          "url": "https://www.hospitalitynewsmag.com/?p=48610",
+          "date": "2025-08-13"
+        }
       ],
       "message_en": "Dear Mr. Zeidan, congratulations on the Socrate opening in the Beirut Souks. It's a bold and generous bet on downtown. We noticed socrate.com doesn't feature the new restaurant yet, and you've said you want to reach a younger generation as well as loyal regulars. We're Crackwits, a creative agency working with premium brands across the region (Cheesecake Factory, Pizza Express, Dean & DeLuca). We'd love to propose a refreshed website around the Souks flagship and a social strategy that bridges six decades of Socrate with new Beirut. Would you have 20 minutes next week?",
-      "message_ar": "حضرة السيد زيدان المحترم، ألف مبروك افتتاح Socrate في أسواق بيروت، خطوة جريئة وكريمة تجاه وسط البلد. لاحظنا أن موقع socrate.com لا يعرض المطعم الجديد بعد، وذكرتم أنكم تريدون الوصول إلى الجيل الجديد إلى جانب الزبائن الأوفياء. نحن Crackwits، وكالة إبداعية نعمل مع علامات راقية في المنطقة (Cheesecake Factory وPizza Express وDean & DeLuca). يسعدنا أن نقترح موقعاً متجدداً يتمحور حول فرع الأسواق، واستراتيجية تواصل اجتماعي تربط ستة عقود من Socrate ببيروت الجديدة. هل لديكم ٢٠ دقيقة الأسبوع المقبل؟"
+      "email_subject": "Socrate in the Souks: website & social proposal",
+      "summary": "60-year Beirut brand opened a $1M+ flagship in the Souks. Website still says ©2020."
     },
     {
       "id": "lb-ori-beirut",
@@ -119,24 +178,37 @@
       "city": "Beirut — Achrafieh",
       "sector": "F&B · Fine dining (omakase)",
       "tier": "A",
-      "priority": "warm",
-      "score": 76,
-      "services": ["Website", "Social Media Management", "Social Ads"],
+      "services": [
+        "Website",
+        "Social Media Management",
+        "Social Ads"
+      ],
       "signal": "New refined omakase concept in Achrafieh (featured in Lebanon Traveler's 'Just Opened', Aug 2026). Omakase is seat-limited and reservation-driven — exactly where a premium booking site and aspirational content pay off. No website surfaced in search.",
       "angle": "Scarcity & craft: an elegant reservation site (seatings, chef's counter), cinematic short-form content of the chef's craft, and targeted ads to high-income Beirut and diaspora visitors.",
       "contacts": {
+        "decision_maker": "Owner / chef (not named publicly) — DM via Instagram",
+        "emails": [
+          "ori@oribeirut.com"
+        ],
+        "phones": [
+          "+961 70 174 764"
+        ],
+        "whatsapp": "",
         "website": "",
         "instagram": "https://www.instagram.com/oribeirut/",
         "linkedin": "",
-        "phone": "",
-        "email": "",
-        "decision_maker": "Owner / chef (not named publicly) — DM via Instagram"
+        "other": ""
       },
       "evidence": [
-        {"title": "Lebanon Traveler — Just Opened: Lebanon's newest restaurants", "url": "https://www.lebanontraveler.com/en/magazine/just-opened-lebanons-newest-restaurants-cafes-lounges/", "date": "2026-08-12"}
+        {
+          "title": "Lebanon Traveler — Just Opened: Lebanon's newest restaurants",
+          "url": "https://www.lebanontraveler.com/en/magazine/just-opened-lebanons-newest-restaurants-cafes-lounges/",
+          "date": "2026-08-12"
+        }
       ],
       "message_en": "Hi Ori team, congratulations on the opening. An omakase counter in Achrafieh is exactly what Beirut needed. Experiences like yours are sold on craft and scarcity, and that is best told through a beautiful reservation experience and cinematic content. We're Crackwits, a creative agency working with premium hospitality brands across the region. We'd love to show you what an Ori booking site and content series could look like. Can we book a seat and say hello?",
-      "message_ar": "أهلاً فريق Ori، مبروك الافتتاح! كاونتر أوماكاسي في الأشرفية هو بالضبط ما كانت تحتاجه بيروت. تجارب مثل تجربتكم تُباع بالحِرفة والندرة، وأفضل طريقة لروايتها موقع حجوزات أنيق ومحتوى سينمائي. نحن Crackwits، وكالة إبداعية نعمل مع علامات ضيافة راقية في المنطقة. يسعدنا نعرض عليكم تصوراً لموقع حجوزات وسلسلة محتوى لـ Ori. ممكن نحجز مقعد ونسلّم عليكم؟"
+      "email_subject": "An Ori booking experience worthy of the counter",
+      "summary": "New 10-seat omakase counter in Achrafieh. Reservation-driven, no website."
     },
     {
       "id": "lb-cali-burger",
@@ -146,24 +218,35 @@
       "city": "Beirut — Mar Mikhael (also Broummana, Las Salinas Anfeh)",
       "sector": "F&B · Casual burger chain (3 branches)",
       "tier": "B",
-      "priority": "warm",
-      "score": 70,
-      "services": ["Social Media Management", "Social Ads", "Website"],
+      "services": [
+        "Social Media Management",
+        "Social Ads",
+        "Website"
+      ],
       "signal": "Opened its third Lebanese branch in Mar Mikhael (officially opened, reported 12 Oct 2026) with a $250k investment. Expanding chain moving from resort locations into the heart of Beirut nightlife — needs city-level awareness and delivery/visit campaigns.",
       "angle": "Beirut launch campaign: geo-targeted social ads around Mar Mikhael/Gemmayzeh, UGC/creator content, and a simple site with branches and menu.",
       "contacts": {
+        "decision_maker": "Leon Semerjian — Founder",
+        "emails": [],
+        "phones": [
+          "+961 79 491 993"
+        ],
+        "whatsapp": "",
         "website": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/caliburgerlb/",
         "linkedin": "",
-        "phone": "",
-        "email": "",
-        "decision_maker": "Leon Semerjian — Founder"
+        "other": ""
       },
       "evidence": [
-        {"title": "L'Orient Today — Cali Burger lands in Beirut in a laid-back vibe", "url": "https://today.lorientlejour.com/cooking-food-lebanon/1550502/cali-burger-lands-in-beirut-in-a-laid-back-vibe.html", "date": "2026-10-12"}
+        {
+          "title": "L'Orient Today — Cali Burger lands in Beirut in a laid-back vibe",
+          "url": "https://today.lorientlejour.com/cooking-food-lebanon/1550502/cali-burger-lands-in-beirut-in-a-laid-back-vibe.html",
+          "date": "2026-10-12"
+        }
       ],
       "message_en": "Hi Leon, congrats on the Mar Mikhael opening. Going from Broummana and Anfeh into the heart of Beirut is a big step. We're Crackwits, a creative agency working with F&B brands across the region (Pizza Express, OVO, Cheesecake Factory). We'd love to help make the Beirut launch loud: geo-targeted ads around Mar Mikhael and Gemmayzeh, creator content, and a clean site for your three branches. Open to a quick call?",
-      "message_ar": "أهلاً ليون، مبروك افتتاح مار مخايل! الانتقال من برمانا وأنفه إلى قلب بيروت خطوة كبيرة. نحن Crackwits، وكالة إبداعية نعمل مع علامات مطاعم في المنطقة (Pizza Express وOVO وCheesecake Factory). يسعدنا نساعدكم يكون إطلاق بيروت قوي: إعلانات موجّهة حول مار مخايل والجميزة، محتوى مع صنّاع محتوى، وموقع بسيط وأنيق لفروعكم الثلاثة. هل نحكي مكالمة قصيرة؟"
+      "email_subject": "Making the Mar Mikhael launch loud",
+      "summary": "Opened 3rd branch in Mar Mikhael, moving into central Beirut. Needs city-wide awareness."
     }
   ]
 }

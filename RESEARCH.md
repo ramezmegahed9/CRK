@@ -26,8 +26,14 @@ Site: https://www.crackwits.com · Cases: https://www.crackwits.com/case-studies
 
 ## Lead fields
 id (`kw-`/`lb-` + slug), added (YYYY-MM-DD), company, country, city, sector, tier (A/B+/B),
-priority (hot/warm/cold), score (0–100 fit), services[], signal (why now, with facts), angle (our pitch),
-contacts{website, instagram, linkedin, phone, email, decision_maker}, evidence[{title,url,date}],
-message_en, message_ar (short, elegant, personal, reference the signal + 1–3 relevant Crackwits clients, end with a soft ask).
+services[], summary (1 short sentence for the card), signal (why now, with facts), angle (our pitch),
+contacts{decision_maker, emails[], phones[] (international format, e.g. +965 2575 7574), whatsapp, website, instagram, linkedin, other},
+evidence[{title,url,date}], email_subject, message_en (English only; short, elegant, personal,
+reference the signal + 1–3 relevant Crackwits clients, end with a soft ask).
+
+Contacts matter: for every lead actively look for a public email and phone (Google business listing,
+Google search results, the company website contact page, Instagram bio/linktree, SevenRooms/booking pages,
+press articles). Use the built-in browser if web search can't show them. Never guess an email format.
+No priority, no score, no Arabic message.
 
 Set top-level `updated` to the run date.

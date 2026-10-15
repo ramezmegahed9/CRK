@@ -23,21 +23,35 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Crackwits · Lead Engine</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/app.css">
+<link rel="stylesheet" href="assets/app.css?v=2">
 </head>
 <body class="login">
   <main class="login-card">
-    <div class="brand"><span class="mark">CW</span><div><b>Crackwits</b><small>Lead Engine</small></div></div>
-    <h1>Welcome back</h1>
+    <img class="logo" src="assets/logo.svg" alt="Crackwits" width="168" height="32">
+    <h1>Lead Engine</h1>
     <p class="muted">Daily, research-backed prospects for Kuwait &amp; Lebanon.</p>
     <?php if ($error): ?><div class="alert"><?= h($error) ?></div><?php endif; ?>
     <form method="post" autocomplete="on">
       <label>Username<input name="username" required autofocus autocomplete="username"></label>
-      <label>Password<input name="password" type="password" required autocomplete="current-password"></label>
+      <label>Password
+        <span class="pw">
+          <input id="pw" name="password" type="password" required autocomplete="current-password">
+          <button type="button" class="eye" id="eye" aria-label="Show password" aria-pressed="false">
+            <svg class="i-show" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+            <svg class="i-hide" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l18 18"/><path d="M10.6 5.1A10.9 10.9 0 0 1 12 5c6.5 0 10 7 10 7a17.6 17.6 0 0 1-3.2 4.2M6.6 6.6C3.8 8.4 2 12 2 12s3.5 7 10 7a10 10 0 0 0 5.4-1.6"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"/></svg>
+          </button>
+        </span>
+      </label>
       <button class="btn primary" type="submit">Sign in</button>
     </form>
   </main>
+<script>
+  document.getElementById('eye').addEventListener('click', function () {
+    const pw = document.getElementById('pw'), show = pw.type === 'password';
+    pw.type = show ? 'text' : 'password';
+    this.setAttribute('aria-pressed', show);
+    this.setAttribute('aria-label', show ? 'Hide password' : 'Show password');
+  });
+</script>
 </body>
 </html>
